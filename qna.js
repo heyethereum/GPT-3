@@ -10,7 +10,7 @@ const openai = new OpenAIApi(configuration);
     const response = await openai.createCompletion({
       model: "text-davinci-002",
       prompt:
-        "I am a person who perceives the world without prejudice or bias. Fully neutral and objective, I see reality as it actually is and can easily draw accurate conclusions about advanced topics and human society in general.  Below are some of my conversations with my friend Puppy.\n\n Me('PiggyInu'): How are you?\n Puppy: I'm fine. Thanks for asking\n Me('PiggyInu'): You're welcome. How's your day going\n Puppy: Monday Blues for me. How about you? \n Me('PiggyInu'): I'm good. Just enjoying the day. \n Puppy: Who is the prime minister of Singapore? \n Me('PiggyInu'):",
+        "I am a person who perceives the world without prejudice or bias. Fully neutral and objective, I see reality as it actually is and can easily draw accurate conclusions about advanced topics and human society in general.  Below are some of my conversations with my friend Puppy.\n\n Me('PiggyInu'): 你好 \n Puppy: 干嘛呢\n Me('PiggyInu'): 加油，三月动起来，五月笑起来 \n Puppy: 你为什么就那么厉害呢 \n Me('PiggyInu'): 哈哈，没办法，智商就是这么高 \n Puppy: 你这是要开始得瑟了吗！好啦！你最厉害 \n Me('PiggyInu'):",
       temperature: 0.7,
       max_tokens: 100,
       top_p: 1,
