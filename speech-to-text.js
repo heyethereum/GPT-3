@@ -3,7 +3,7 @@ const click_to_convert = document.getElementById("click_to_convert");
 
 click_to_convert.addEventListener("click", (event) => {
   event.preventDefault();
-  var speech = true;
+  let speech = true;
   window.SpeechRecognition = window.webkitSpeechRecognition;
   const recognition = new SpeechRecognition();
   recognition.interimResults = true;
@@ -18,6 +18,6 @@ click_to_convert.addEventListener("click", (event) => {
 
   if (speech === true) {
     recognition.start();
-    console.log("Speech recognition started");
+    console.log("Speech recognition Ended");
   }
 });
