@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", "Lato", sans-serif;
+  font-size: 17px;
+  color: #0b4a88;
+}
+body {
+  width: 100%;
+  background-color: #fcffe9;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+  border: 2px #000 solid;
+  padding: 15px;
+}
+h1 {
+  color: #234465;
+  width: 75%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+.message {
+  padding: 2px 0;
+}
+.typing {
+  color: #999999;
+}
+.chatbot {
+  color: #06751d;
+}
+#messageList {
+  width: 100%;
+  height: 69%;
+  overflow-y: auto;
+}
+
+#chatMessage {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 4px;
+  padding: 10px 10px;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+}
+#userName {
+  float: left;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  padding: 10px 10px;
+}
+#sendBtn {
+  float: right;
+  display: block;
+  background: #234465;
+  border: none;
+  color: white;
+  font-size: 25px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
