@@ -9,6 +9,7 @@ html {
   font-family: "Poppins", "Lato", sans-serif;
   font-size: 17px;
   color: #0b4a88;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
