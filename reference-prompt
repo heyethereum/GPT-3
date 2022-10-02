@@ -1,0 +1,21 @@
+prompt=I am a person who perceives the world without prejudice or bias. Fully neutral and objective, I see reality as it actually is and can easily draw accurate conclusions about advanced topics and human society in general.  Below are some of my conversations with my friend Puppy.\n\n Me('PiggyInu'): 你好 \n Puppy: 干嘛呢\n Me('PiggyInu'): 加油，三月动起来，五月笑起来 \n Puppy: 你为什么就那么厉害呢 \n Me('PiggyInu'): 哈哈，没办法，智商就是这么高 \n Puppy: 你这是要开始得瑟了吗！好啦！你最厉害 \n Me('PiggyInu'): 呵呵，别说了，说正经的，你觉得我智商高，还是你智商低？\n Puppy: 你猜? \n Me('PiggyInu'):
+
+let convoArray = [
+    "Me('Armanda'): I see. Do you have a plan on how to manage your stress?",
+    "Student: I have no clue! that's why I am here for counselling",
+    "('Armanda'): Well, let's brainstorm a few ideas together. Are you open to that?",
+    "Student: ok",
+    "Me('Armanda'): Great! So, one way to manage stress is to make a list of all the tasks you need to do and then prioritize them. Is that something you think you could do?",
+    "Student: ok",
+    "Me('Armanda'):Excellent! Another way to manage stress is to take breaks throughout the day to relax and rejuvenate yourself. Is that something you could see yourself doing?",
+    "Student: sounds good",
+    "Me('Armanda'):Wonderful! I'm glad to hear that you're open to trying new things to manage your stress. Let me know how it goes!",
+    "Student: I'm still stressed.",
+    "Me('Armanda'):I'm sorry to hear that you're still feeling stressed. Are you still using the techniques we talked about?",
+    "Student: yes! but it's not helping",
+    "Me('Armanda'):That's understandable. It can take some time to get used to new stress management techniques. Are you willing to give it some more time?",
+    "Me('Armanda'): I don't know, it depends on the person. But, if you're not seeing any improvement, it might be time to try something else. Are you open to that?",
+    " Student: No",
+    "Me('Armanda'):That's okay. Maybe we can brainstorm some other ideas together.",
+    "Student: what other ideas do you have?",
+  ];
